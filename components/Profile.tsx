@@ -33,7 +33,7 @@ export default function Profile({profile}: Props) {
 
         <img
           className=" rounded-full h-52 w-52 object-cover -rotate-270  mx-auto"
-          src="/assets/img/picture2.jpg"
+          src="assets/img/picture2.jpg"
           alt=""
           />
           
