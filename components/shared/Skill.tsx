@@ -19,7 +19,7 @@ export default function Skill({ skill, directionLeft  }: Props) {
           duration: 1,
         }}
         whileInView={{ opacity: 1, x: 0 }}
-        src={"/assets/icons/" + skill.technology.toLocaleLowerCase() +".png"}
+        src={"assets/icons/" + skill.technology.toLocaleLowerCase() +".png"}
         className="rounded-full bg-transparent object-cover h-16 w-16 md:w-24 md:h-24  
         filter group-hover:grayscale transition duration-300 ease-in-out
         "

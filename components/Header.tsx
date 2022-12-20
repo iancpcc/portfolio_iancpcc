@@ -12,26 +12,13 @@ export default function Header() {
     { title: "Contacto", route: "contact", isActive: false },
   ];
 
-  // useEffect(() => {
-  //   const sections = document.querySelectorAll("section[id]");
-  //   // console.log("sections", sections);
-
-  //   function scrollActive(value:any) {
-  //     console.log(value);
-  //   }
-  //   window.addEventListener("scroll", scrollActive, true);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", scrollActive, true);
-  //   };
-  // }, []);
 
   const [isActiveMenu, setStateMenu] = useState(false);
   let [options, setStateOption] = useState(optsMenu);
 
   return (
     <header className=" sticky top-0 items-start p-5 max-w-7xl mx-auto  z-20 xl:items-center">
-      <nav className=" flex  flex-wrap space-y-5 items-center justify-between md:space-y-0 md:justify-between md:flex-nowrap">
+      <nav className=" flex border-b-2 border-blue-600 flex-wrap  items-center  justify-between md:space-y-0 md:justify-between md:flex-nowrap">
         {/* Logo */}
         <motion.div
           initial={{
@@ -48,12 +35,12 @@ export default function Header() {
             duration: 0.8,
           }}
           id="Logo"
-          className="cursor-pointer "
+          className="cursor-pointer  "
         >
           <h1>
-            <span className="tracking-[5px] opacity-80 text-2xl font-semibold leading-normal md:inline-flex">
+            <a href="#profile"><span className="tracking-[5px] opacity-80 text-2xl font-semibold leading-normal md:inline-flex">
               {"<Chris/>"}
-            </span>
+            </span></a> 
           </h1>
         </motion.div>
         {/* Menu */}
@@ -76,7 +63,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6 md:invisible cursor-pointer"
+          className="w-6 h-6 md:invisible cursor-pointer  "
           onClick={() => {
             setStateMenu(!isActiveMenu);
           }}
@@ -90,8 +77,8 @@ export default function Header() {
 
         <ul
           className={`${
-            !isActiveMenu ? "invisible " : "visible"
-          } md:visible flex    flex-col w-full gap-3 rounded py-2 md:w-auto md:mt-0 bg-gray-700 md:flex-row md:bg-transparent `}
+            !isActiveMenu ? "hidden " : "visible"
+          } md:visible flex md:inline-flex  mt-5 flex-col w-full gap-3 rounded py-2 md:w-auto md:mt-0 bg-gray-700 md:flex-row md:bg-transparent `}
         >
           {options.map((option, i) => {
             return (

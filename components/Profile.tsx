@@ -69,7 +69,7 @@ export default function Profile({profile}: Props) {
       <Icon url="https://github.com/iancpcc"  ></Icon>
       </motion.div>
       <div className="font-bold ">
-        Mi Hoja de vida  👉 <span className="underline cursor-pointer "><a href='/assets/files/ChristianChasi-CV.pdf' download>CV.pdf</a></span> 
+        Mi Hoja de vida  👉 <span className="underline cursor-pointer "><a href='assets/files/ChristianChasi-CV.pdf' download>CV.pdf</a></span> 
       </div>
       </div>
   );

@@ -8,7 +8,7 @@
       {
         "occupation": "Analista y Soporte de sistemas",
         "bussiness": "incagrow s.a.s ",
-        "img_url": "/assets/img/analista.png",
+        "img_url": "assets/img/analista.png",
         "technologies": ["vba", "access", "microsoft"],
         "work_from": "2021",
         "work_to": "actualidad",
@@ -22,7 +22,7 @@
       {
         "occupation": "Programador",
         "bussiness": "GAD AMBATO - Vinculación con la sociedad",
-        "img_url": "/assets/img/desarrollador.png",
+        "img_url": "assets/img/desarrollador.png",
         "technologies": ["angular", "typescript", "mysql", "bootstrap"],
         "work_from": "2020",
         "work_to": "actualidad",
@@ -35,7 +35,7 @@
       {
         "occupation": "Investigador, Analista y Programador",
         "bussiness": "GAD AMBATO, GAD STA ROSA  y Policía Nacional",
-        "img_url": "/assets/img/tutoria.png",
+        "img_url": "assets/img/tutoria.png",
         "technologies": ["angular", "typescript", "mysql", "bootstrap"],
         "work_from": "2020",
         "work_to": "actualidad",
@@ -70,19 +70,19 @@
       {
         "title": "Barrio Seguro",
         "description": "Aplicación móvil desarrollada para la policía, tipo botón de pánico para envío y recepción de alertas de auxilio mediante notificaciones push y mapas. Frontend: Ionic. Backend: Node js y MongoDB. Nota: Disponible en la Play Store como (Barrio Seguro) ",
-        "img": "/assets/img/bseguro.png",
+        "img": "assets/img/bseguro.png",
         "technologies": ["typescript", "ionic", "mapbox", "leaflet"]
       },
       {
         "title": "Sistema Web para seguimiento de casos de COVID 19",
         "description": "Sitio Web de administración para monitoreo de casos de covid 19 mediante mapas de calor desarrollado como proyecto de vinculación para la sociedad para el municipio de Ambato. Frontend: Angular, Bootstrap, Leaflet y Mapbox.",
-        "img": "/assets/img/vinculacion.png",
+        "img": "assets/img/vinculacion.png",
         "technologies": ["angular", "laravel", "ionic", "mapbox"]
       },
       {
         "title": "Aplicación de peliculas",
         "description": "App móvil de peliculas. FrontEnd: Flutter. API: The Movie DB ",
-        "img": "/assets/img/peliculas.png",
+        "img": "assets/img/peliculas.png",
         "technologies": ["Flutter"]
       }
     
