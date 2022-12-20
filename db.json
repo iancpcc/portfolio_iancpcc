@@ -1,0 +1,91 @@
+{
+    "name": "christian chasi",
+    "about": "Soy Ing. en Sistemas y me dedico al desarrollo de aplicaciones Frontend y Backend. Busco mejorar mis habilidades como programador realizando cursos en diferentes plataformas educativas como Udemy, Pluralsight, BitDegree, Coursera, entre otras. Me gustan los retos, por ende aprendo nuevas tecnologías versatiles del mundo moderno para desarrollar software de calidad. Actualmente me encuentro laborando sin embargo me gustaría adquirir mas experiencia en empresas dedicadas plenamente a mi área",
+    "phone": "+593 983084104",
+    "email": "chrischasi@incaflowers.com",
+    "address": "Ambato-Ecuador",
+    "experience": [
+      {
+        "occupation": "Analista y Soporte de sistemas",
+        "bussiness": "incagrow s.a.s ",
+        "img_url": "/assets/img/analista.png",
+        "technologies": ["vba", "access", "microsoft"],
+        "work_from": "2021",
+        "work_to": "actualidad",
+        "activities": [
+          "Implementación de módulos de producción, ventas y despachos.",
+          "Implementación de Reportes.",
+          "Gestión de cuentas Office 365.",
+          "Administración de correos coorporativos."
+        ]
+      },
+      {
+        "occupation": "Programador",
+        "bussiness": "GAD AMBATO - Vinculación con la sociedad",
+        "img_url": "/assets/img/desarrollador.png",
+        "technologies": ["angular", "typescript", "mysql", "bootstrap"],
+        "work_from": "2020",
+        "work_to": "actualidad",
+        "activities": [
+          "Levantamiento de requerimientos para desarrollo de un  Sistema para gestión y visualización de casos de COVID 19",
+          "Frontend y vinculación con Backend",
+          "Pruebas Piloto del sistema."
+        ]
+      },
+      {
+        "occupation": "Investigador, Analista y Programador",
+        "bussiness": "GAD AMBATO, GAD STA ROSA  y Policía Nacional",
+        "img_url": "/assets/img/tutoria.png",
+        "technologies": ["angular", "typescript", "mysql", "bootstrap"],
+        "work_from": "2020",
+        "work_to": "actualidad",
+        "activities": [
+          "Levantamiento de requerimientos para desarrollo de una aplicación móvil de alertas de auxilio.",
+          "Frontend y Backend",
+          "Diseño de Base de Datos",
+          "Pruebas Piloto con los ciudadanos de los diferentes barrios de la ciudad"
+        ]
+      }
+    ],
+    "skills": [
+      { "technology": "Angular", "level": 75 },
+      { "technology": "React", "level": 50 },
+      { "technology": "Ionic", "level": 50 },
+      { "technology": "NodeJs", "level": 75 },
+      { "technology": "Typescript", "level": 80 },
+      { "technology": "Flutter", "level": 50 },
+      { "technology": "Javascript", "level": 75 },
+      { "technology": "Bootstrap", "level": 50 },
+      { "technology": "Tailwind", "level": 40 },
+      { "technology": "MongoDB", "level": 50 },
+      { "technology": "Mysql", "level": 80 },
+      { "technology": "SqlServer", "level": 75 },
+      { "technology": "Java", "level": 75 },
+      { "technology": "CSharp", "level": 50 },
+      { "technology": "Vba", "level": 25 },
+      { "technology": "Codeigniter", "level": 40 }
+    ],
+
+    "projects": [
+      {
+        "title": "Barrio Seguro",
+        "description": "Aplicación móvil desarrollada para la policía, tipo botón de pánico para envío y recepción de alertas de auxilio mediante notificaciones push y mapas. Frontend: Ionic. Backend: Node js y MongoDB. Nota: Disponible en la Play Store como (Barrio Seguro) ",
+        "img": "/assets/img/bseguro.png",
+        "technologies": ["typescript", "ionic", "mapbox", "leaflet"]
+      },
+      {
+        "title": "Sistema Web para seguimiento de casos de COVID 19",
+        "description": "Sitio Web de administración para monitoreo de casos de covid 19 mediante mapas de calor desarrollado como proyecto de vinculación para la sociedad para el municipio de Ambato. Frontend: Angular, Bootstrap, Leaflet y Mapbox.",
+        "img": "/assets/img/vinculacion.png",
+        "technologies": ["angular", "laravel", "ionic", "mapbox"]
+      },
+      {
+        "title": "Aplicación de peliculas",
+        "description": "App móvil de peliculas. FrontEnd: Flutter. API: The Movie DB ",
+        "img": "/assets/img/peliculas.png",
+        "technologies": ["Flutter"]
+      }
+    
+
+    ]
+}
