@@ -31,7 +31,7 @@ export default function About({ profile }: Props) {
         }}
         className=" mt-20 -mb-20 md:mb-0 flex-shrink-0 w-44 h-44  
         rounded-full object-cover md:h-64 md:w-95 md:rounded-xl 
-        xl:w-[450px] xl:h-[450px] "
+        xl:w-[250px] xl:h-[250px] "
         src="assets/img/picture.jpg"
         alt=""
       />

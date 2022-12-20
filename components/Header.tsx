@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   const optsMenu = [
-    { title: "Inicio", route: "profile", isActive: false },
+    { title: "Inicio", route: "profile", isActive: true },
     { title: "Acerca de mi", route: "about", isActive: false },
     { title: "Experiencia", route: "experience", isActive: false },
     { title: "Habilidades", route: "skills", isActive: false },

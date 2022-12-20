@@ -37,7 +37,7 @@ export default function WorkExperienceCard({ experience }: Props) {
             return (
               <img
                 className="rounded-full w-10 h-10  object-cover"
-                src={"/assets/icons/" + tech.concat(".png")}
+                src={"assets/icons/" + tech.concat(".png")}
                 alt=""
                 key={i}
               />
